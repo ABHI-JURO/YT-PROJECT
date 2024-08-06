@@ -34,6 +34,7 @@
 .middle-section
 {
     flex: 1;
+    padding-left: 0px;
     margin-left: 70px;
     margin-right: 35px;
     max-width: 500px;
@@ -49,7 +50,8 @@
     border-width: 1px;
     border-style: solid;
     border-color: rgb(197, 196, 196);
-    border-radius: 3px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
     box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
     width: 0;
 }
@@ -67,6 +69,8 @@
     border-width: 1px;
     border-style: solid;
     border-color: rgb(197, 196, 196);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     margin-left: -2px;
     position: relative;
 
